@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## **Deployed via Render** 🚀
+`Try it!!` [Regestration-App](https://react-registration-task.onrender.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
