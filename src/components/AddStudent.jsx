@@ -15,7 +15,7 @@ function AddStudent({ addStudentFun }) {
     }
     return (
         <div className="container m-auto mb-3  mt-2 p-3 border rounded ">
-            <h2>Regestration</h2>
+            <h2 className="text-primary"> Regestration</h2>
             <form onSubmit={handleSubmit}>
 
                 <div className="form-group m-3 p-2 row">

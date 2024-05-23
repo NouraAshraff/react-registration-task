@@ -11,9 +11,9 @@ import Paper from '@mui/material/Paper';
 export default function Students({ stdsArr }) {
     console.log(stdsArr);
     return (
-    
-
-            <TableContainer className='container m-auto mb-3  mt-2 p-3 border rounded' component={Paper}>
+        <div className='container m-auto mb-3  mt-2 p-3 border rounded '>
+            <h2 className='text-primary'>Students</h2>
+            <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
                     <TableHead className='bg-light'>
                         <TableRow>
@@ -39,6 +39,10 @@ export default function Students({ stdsArr }) {
                 </Table>
             </TableContainer>
     
+        </div>
+    
+
+           
 
     );
 }

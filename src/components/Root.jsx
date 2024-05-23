@@ -7,7 +7,7 @@ const Root = () => {
     const [stds ,setStudentsArr]=useState([
     
         {id:uuid(),name:"Noura",age:25 , email :"noura@mail.com"},
-    
+        {id:uuid(),name:"Ahmed",age:25 , email :"ahmed@gmail.com"},
 
 
     ])
